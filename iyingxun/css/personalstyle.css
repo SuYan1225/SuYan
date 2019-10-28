@@ -1,0 +1,80 @@
+.fenge,.content_fenge{
+    height: 8px;
+}
+.navbar-inverse {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+#rightContent {
+    float: left;
+    width: 88%;
+    height: 550px;
+    margin-left: 150px;
+    position:absolute;
+    background-color: rgba(240,255,255,0.5) ;
+    border-radius:20px;
+    text-align:center;
+}
+#menu {
+    cursor: default;
+    overflow: hidden;
+    height: 550px;
+    width: 9%;
+    float: left;
+    margin-left: 2px;
+    font-family: 一纸情书;
+    font-size: 16px;
+}
+#menu #open {
+    /*显示菜单样式*/
+    width: auto;
+    height: 100%;
+    background-color: black;
+}
+#menu #open .navBox {
+    height: 100%;
+    overflow-y: auto;
+}
+#menu #open .navBox ul{
+    padding-left: 1px;
+    background-color: black;
+}
+#menu #open .navBox ul li {
+    background-color: black;
+    cursor: pointer;
+    list-style: none;
+}
+#menu #open .navBox ul li .obtain {
+    background-color: #3889D4;
+}
+#menu #open .navBox ul li .obtain:hover {
+    background-color: #3D8332;
+}
+#menu #open .navBox ul li h2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+#menu #open .navBox ul li h2 i {
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+}
+#menu #open .navBox ul li .secondary {
+    overflow: hidden;
+}
+#menu #open .navBox ul li .secondary h3 {
+    text-align: center;
+    color: #ffffff;
+}
+#menu #open .navBox ul li .secondary h3:hover {
+    background-color: #1acbfc;
+}
+.touxiang{
+    border-radius:50%;
+    width:30px;
+    height:30px;
+}

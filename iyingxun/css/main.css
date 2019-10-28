@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*height:1500px; !* 设置滚动条*!*/
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1226px;
+}
+.topbar{
+    border: 1px  solid black;/*设置顶部的背景颜色*/
+    background-color: black;/*设置顶部的背景颜色*/
+    height: 80px;
+}
+.container::before,.container::after{
+    content:"" ;
+    display: table;
+}
+.container::after{
+    clear: both;
+}
+.topinfo a{
+    font-size: 20px;
+}
+.topinfo a:hover{
+    background-color:#FFF;
+    color:#000;
+    font-size:20px;
+}
+.topname{
+    text-align: center;
+    font-size: 30px;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(182, 187, 190);
+}
+.topinfo{
+    float: right;
+    color:#FFF;
+    height: 40px;
+    line-height: 40px;
+}
+.topn1{
+    float: left;
+    font-size:  20px;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(182, 187, 190);
+}
+.topinfo span{
+    font-size:18px;
+    color:rgb(182, 187, 190);
+    margin:0.5em;
+}

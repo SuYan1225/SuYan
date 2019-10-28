@@ -1,0 +1,55 @@
+.fenge,.content_fenge{
+    height: 8px;
+}
+.a{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 一纸情书;
+    margin-left: 45%;
+}
+#sousuo{
+    margin-top: 15px;
+    height: 25px;
+    border-radius:20%;
+    background-color: #F8F8F8;
+}
+.search{
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #F8F8F8;
+}
+#search{
+    text-align: center;
+    border-color: grey;
+    border-radius:15px;
+    font-size: 20px;
+    background-color: #FFF;
+    border: 0px;
+    height:30px;
+    width:350px;
+    font-family: 一纸情书;
+    font-weight: bold;
+}
+.touxiang{
+    border-radius:50%;
+    width:30px;
+    height:30px;
+}
+.fanhui{
+    font-family: 一纸情书;
+    font-size: 30px;
+    position: relative;
+    margin-top: 400px;
+}
+#show{
+    float: left;
+    display: block;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+#show:hover{
+    transform: scale(1.1);
+}

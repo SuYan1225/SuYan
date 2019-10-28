@@ -1,0 +1,13 @@
+*{
+    font-weight: bold;
+    font-family: 一纸情书;
+}
+.info table{
+    width: 600px;
+    height: 330px;
+}
+.info table tr td{
+    text-align: center;
+    font-size: 30px;
+
+}

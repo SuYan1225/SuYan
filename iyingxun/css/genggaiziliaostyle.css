@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+}
+.content{/*用户名等的所处位置*/
+    font-family: 一纸情书;
+    font-weight: bold;
+    color: black;
+    font-size:20px;
+    letter-spacing: 1px;
+    height:30px;
+}
+.content table tr td{/*表格的样式*/
+    height: 15px;
+}
+#username,#pwd,#pwd2,#userphone{/*用户名，密码验证码框的样式*/
+    color: black;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #FFF;
+    border: 0px;
+    height:27px;
+    width:180px;
+    font-family: 一纸情书;
+    font-weight: bold;
+}
+#username:focus,#pwd:focus,#pwd2:focus,#userphone:focus{/*当方框内填写信息后，提示语消失*/
+    border: 0px;
+    outline: none;
+}
+.zc input{
+    border: 1px solid #55A9F4;
+    background-color:#55A9F4;
+    width: 270px;
+    height: 30px;
+    color: black;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 一纸情书;
+}
+#change:hover{
+    border: 1px solid #F60;
+    background-color: #F60;
+    outline: none;
+}
+.zc table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.information span{
+    padding-top: 5px;
+}
+#cname,#cpassword1,#cpassword2,#cphone{
+    border: 0px;
+    height: 5px;
+    font-size: 5px;
+    border: 0px;
+    background-color: rgba(240,255,255,0.5) ;
+}

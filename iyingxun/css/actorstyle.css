@@ -1,0 +1,58 @@
+#i{
+    border-radius:50%;
+    width:30px;
+    height:30px;
+}
+.fenge,.content_fenge{
+    height: 8px;
+}
+#sousuo{
+    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius:20%;
+    background-color: #F8F8F8;
+}
+.search{
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #F8F8F8;
+}
+#search{
+    text-align: center;
+    border-color: grey;
+    border-radius:15px;
+    font-size: 20px;
+    background-color: #FFF;
+    border: 0px;
+    height:30px;
+    width:350px;
+    font-family: 一纸情书;
+    font-weight: bold;
+
+}
+.w_1200 {
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.w_1200 span{
+    font-size: 26px;
+    font-family: 一纸情书;
+    color: #2bb673;
+    border-bottom: 4px solid #2bb673;
+    line-height: 54px;
+    margin: 0 0 6px 0px;
+    padding-bottom: 10px;
+}
+#picture{
+    border-color: #cccccc;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    width:280px;
+    height:350px;
+}

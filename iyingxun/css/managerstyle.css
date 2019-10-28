@@ -1,0 +1,164 @@
+
+/*以下是图片的样式*/
+.login_img{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    margin: 7% 20%;
+    width: 250px;
+    height: 140px;
+    position: relative;
+    perspective: 1000px;
+    perspective-origin: center 5%;
+}
+.login_img::before,.login_img::after{
+    box-sizing: border-box;
+}
+.carousel{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotation 45s infinite linear;
+}
+.carousel:hover{
+    animation-play-state: paused;
+}
+.carousel img{
+    display: block;
+    position: absolute;
+    width: 220px;
+    height: 120px;
+    left: 30px;
+    top: 60px;
+    background: black;
+    overflow: hidden;
+    border: solid 1px rgba(255,255,255,.5);
+}
+img{
+    filter: grayscale(0);/*设置图片灰度*/
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    height: 100%;
+}
+.carousel img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2,1.2);
+}
+.carousel figure:nth-child(1){
+    transform: rotateY(0deg) translateZ(288px);
+}
+.carousel figure:nth-child(2){
+    transform: rotateY(60deg) translateZ(288px);
+}
+.carousel figure:nth-child(3){
+    transform: rotateY(120deg) translateZ(288px);
+}
+.carousel figure:nth-child(4){
+    transform: rotateY(180deg) translateZ(288px);
+}
+.carousel figure:nth-child(5){
+    transform: rotateY(240deg) translateZ(288px);
+}
+.carousel figure:nth-child(6){
+    transform: rotateY(300deg) translateZ(288px);
+}
+
+@keyframes rotation{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+.guanli{
+    width:320px;
+    height:380px;
+    padding:13px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:160px;
+    margin-top:-150px;
+    background-color: rgba(240,255,255,0.5) ;
+    border-radius:20px;
+    text-align:center;
+    /* float: right;*/
+    border: 1px solid #3F99F3;
+    /*background-color:#F60;*/
+}
+.gt{
+    margin-top: 3px;
+    border-radius:50%;
+    width:120px;
+    height:120px;
+}
+.gt_content{
+    margin-top: 35px;
+    font-family: 一纸情书;
+    font-weight: bold;
+    color: black;
+    font-size:18px;
+    letter-spacing: 1px;
+    height:30px;
+
+}
+.gt_content label{
+    font-size:22px;
+}
+.gt_info{
+    margin-left: 22px;
+}
+.login input{/*登录注册两个按钮的设置*/
+    border: 1px solid #55A9F4;
+    background-color:#55A9F4;
+    width: 270px;
+    height: 30px;
+    color: black;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 一纸情书;
+    margin-left: 12px;
+    align-content: center;
+}
+#button:hover,#reset:hover{/*登陆注册两个按钮被光标划过时的变化*/
+    border: 1px solid #F60;
+    background-color: #F60;
+    outline: none;
+}
+.login table {
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+.gt_content table tr td{/*表格的样式*/
+    height: 15px;
+}
+#zh,#pwd{/*用户名，密码验证码框的样式*/
+    color: black;
+    border-radius: 8px;
+    padding-left: 2px;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    background-color: #FFF;
+    border: 0px;
+    height:30px;
+    width:200px;
+    font-family: 一纸情书;
+    font-weight: bold;
+}
+#zh:focus,#pwd:focus{/*当方框内填写信息后，提示语消失*/
+    border: 0px;
+    outline: none;
+}
+#szh,#spwd{/*设置提示部分的样式*/
+    border: 0px;
+    background-color: rgba(240,255,255,0.5) ;
+    border: 0px;
+    height: 5px;
+    font-size: 5px;
+}
